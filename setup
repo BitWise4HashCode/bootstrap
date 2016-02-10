@@ -1,0 +1,5 @@
+#! /bin/sh
+
+curl -s http://get.sdkman.io | bash
+sdk install springboot
+
