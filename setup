@@ -1,5 +1,5 @@
-#! /bin/sh
+#! /bin/bash 
 
 curl -s http://get.sdkman.io | bash
-sdk install springboot
-
+chmod +x ~/.sdkman/bin/sdkman-init.sh
+source setup-aux
